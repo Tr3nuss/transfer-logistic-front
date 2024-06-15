@@ -115,3 +115,64 @@ header {
   border-radius: 15px;
   color: #fff;
 }
+
+/* SIDEBAR */
+
+.side-bar {
+  position: sticky;
+  top: 20px;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px 36px 40px 36px;
+  width: 445px;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #D6E7EE;
+}
+
+.side-bar-line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin-top: 18px;
+  background-color: #fff;
+}
+
+.drop-down {
+  margin-top: 18px;
+}
+
+.drop-down-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.drop-down-button > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.checkbox-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 18px;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.checkbox-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #242424;
+}
