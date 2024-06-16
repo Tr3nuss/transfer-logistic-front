@@ -67,6 +67,12 @@ header {
   color: #000;
 }
 
+main {
+  display: flex;
+  gap: 100px;
+  padding: 0 80px;
+}
+
 .product-list-items {
   display: flex;
   flex-wrap: wrap;
