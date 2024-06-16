@@ -5,7 +5,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
+  min-height: 100%;
 }
 
 ul li {
@@ -71,6 +74,7 @@ main {
   display: flex;
   gap: 100px;
   padding: 0 80px;
+  flex: 1 0 auto;
 }
 
 .product-list-items {
